@@ -1,12 +1,38 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>exists-offline</title>
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@300&family=Cutive+Mono&family=Qwitcher+Grypen&display=swap" rel="stylesheet">
 </head>
+
 <body>
-    <p>big pog :)</p>
+    <h1>4.		Webseite zum Testen der Tastaturbelegungen</h1>
+
+    <div id="divMainContainer">
+        <div id="divTyping">
+            <p id="pTyping">|</p>
+        </div>
+
+        <select id="selLayout">
+            <option value="QWERTZ">QWERTZ</option>
+            <option value="Neo">Neo</option>
+            <option value="Bone">Bone</option>
+            <option value="AdNW">AdNW</option>
+        </select>
+
+        <button id="btnLayoutLaden">Tastaturbelegung laden</button>
+
+        <div id="divLayoutInfo">
+        </div>
+
+        <script src="script.js"></script>
+    </div>
 </body>
 </html>
